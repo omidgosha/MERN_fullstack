@@ -6,7 +6,7 @@ const app = express();
 //connect database
 connectDB();
 
-// initialize middleware
+// initialize middleware; get data inside body
 app.use(express.json({extended: false}));
 
 // define routes
