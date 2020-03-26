@@ -4,7 +4,7 @@ const gravatar = require('gravatar')
 const bcrypt = require('bcryptjs')
 const config = require('config')
 const jwt = require('jsonwebtoken')
-const {check, validationResult} = require('express-validator/check') //to check for errors like email and password lengthi
+const {check, validationResult} = require('express-validator') //to check for errors like email and password lengthi
 
 const User = require('../models/User')
 // @route POST api/users
